@@ -26,7 +26,7 @@ $ ngrok http 3000
 
 5. Replace the baseURL for the [API](https://github.com/memonsahil/BlogPost/blob/master/src/api/jsonServer.js) in the BlogPost project with the ngrok forwarded URL. Note that the ngrok forwarded URL changes every 8 hours.
 
-6. After completing the above steps, the BlogPost app will connect to this database on launch.
+6. After completing the above steps, the BlogPost app will connect to the JSON database on launch.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first.
