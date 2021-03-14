@@ -1,6 +1,6 @@
 # blog-post-server
 
-An JSON database for the [BlogPost](https://github.com/memonsahil/BlogPost) app.
+A JSON database for the [BlogPost](https://github.com/memonsahil/BlogPost) app.
 
 ## Setup
 
