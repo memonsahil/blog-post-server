@@ -1,0 +1,15 @@
+{
+  "name": "blog-post-server",
+  "version": "1.0.0",
+  "description": "A JSON database for the BlogPost app.",
+  "scripts": {
+    "db": "json-server -w db.json",
+    "tunnel": "ngrok http 3000"
+  },
+  "author": "Sahil Memon",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "ngrok": "^3.4.0"
+  }
+}

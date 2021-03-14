@@ -1,0 +1,14 @@
+{
+  "blogposts": [
+    {
+      "title": "Context API",
+      "content": "Used for moving data to multiple nested components within the app.",
+      "id": 1
+    },
+    {
+      "title": "New Post!",
+      "content": "🐶🐶🐶",
+      "id": 2
+    }
+  ]
+}
