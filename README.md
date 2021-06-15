@@ -17,7 +17,7 @@ $ cd blog-post-server && npm install
 2. Install [json-server](https://github.com/typicode/json-server) globally to initiate a local JSON database:
 
 ````
-$ npm install -g json-server ngrok
+$ npm install -g json-server json-server
 ````
 
 3. Install [ngrok](https://github.com/bubenshchykov/ngrok) globally to create a proxy URL for the JSON database:
