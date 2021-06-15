@@ -1,7 +1,7 @@
 {
   "name": "blog-post-server",
   "version": "1.0.0",
-  "description": "A JSON database for the BlogPost app.",
+  "description": "A JSON database for the Blog Post app.",
   "scripts": {
     "db": "json-server -w db.json",
     "tunnel": "ngrok http 3000"

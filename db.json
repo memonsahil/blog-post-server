@@ -6,9 +6,14 @@
       "id": 1
     },
     {
+      "title": "Node.js",
+      "content": "npm is a tool from Node.js",
+      "id": 2
+    },
+    {
       "title": "New Post!",
       "content": "🐶🐶🐶",
-      "id": 2
+      "id": 3
     }
   ]
 }
