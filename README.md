@@ -1,35 +1,51 @@
 # blog-post-server
 
-A JSON database for the [BlogPost](https://github.com/memonsahil/BlogPost) app.
+![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)
+![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)
+![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
+
+A JSON database for the [Blog Post](https://github.com/memonsahil/blog-post) app.
 
 ## Setup
 
-1. Install the project using [npm](https://www.npmjs.com/get-npm):
+1. Install the project using npm:
+
 ````
-$ npm install
+$ cd blog-post-server && npm install
 ````
 
-2. Install its dependencies - [json-server](https://github.com/typicode/json-server) and [ngrok](https://github.com/bubenshchykov/ngrok) globally on your system:
+2. Install [json-server](https://github.com/typicode/json-server) globally to initiate a local JSON database:
+
 ````
 $ npm install -g json-server ngrok
 ````
 
-3. Launch the database:
+3. Install [ngrok](https://github.com/bubenshchykov/ngrok) globally to create a proxy URL for the JSON database:
+
 ````
-$ json-server -w db.json
+$ npm install -g ngrok
 ````
 
-4. Run the ngrok server:
+4. Launch the JSON database:
+
 ````
-$ ngrok http 3000
+$ npm run db
 ````
 
-5. Replace the baseURL for the [API](https://github.com/memonsahil/BlogPost/blob/master/src/api/jsonServer.js) in the BlogPost project with the ngrok forwarded URL. Note that the ngrok forwarded URL changes every 8 hours.
+5. Launch the ngrok server:
 
-6. After completing the above steps, the BlogPost app will connect to the JSON database on launch.
+````
+$ npm run tunnel
+````
+
+6. Replace the baseURL in the [API](https://github.com/memonsahil/BlogPost/blob/master/src/api/jsonServer.js) within the blog-post project with the ngrok forwarded URL.
+
+After completing the above steps, the Blog Post app will connect to the JSON database on launch.
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first.
 
 ## License
+
 MIT &copy; [memonsahil](https://github.com/memonsahil)
