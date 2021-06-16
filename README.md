@@ -4,7 +4,7 @@
 ![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)
 
-A JSON database for the [Blog Post](https://github.com/memonsahil/blog-post) app. Built using [json-server](https://github.com/typicode/json-server). This project is no longer maintained and is used for reference only.
+A JSON database for the [Blog Post](https://github.com/memonsahil/blog-post) app. Built using [json-server](https://github.com/typicode/json-server).
 
 ## Setup
 
